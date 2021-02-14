@@ -27,7 +27,7 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/larowlan/eslint-plugin-gatsby-no-static-queries.git"
