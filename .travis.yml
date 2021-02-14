@@ -25,5 +25,7 @@ jobs:
       deploy:
         provider: script
         skip_cleanup: true
+        on:
+          branch: main
         script:
           - npm run semantic-release -- -b main
