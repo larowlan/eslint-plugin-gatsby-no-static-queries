@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-gatsby-no-static-queries",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "description": "Ensure no static queries used in Gatsby components",
   "keywords": [
     "eslint",
@@ -10,7 +10,8 @@
   "author": "Lee Rowlands",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha tests --recursive"
+    "test": "mocha tests --recursive",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "requireindex": "~1.1.0"
@@ -23,5 +24,9 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/larowlan/eslint-plugin-gatsby-no-static-queries.git"
+  }
 }
